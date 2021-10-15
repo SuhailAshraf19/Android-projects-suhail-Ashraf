@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ZeroZarabGame</string>
+    <string name="welcome">welcome to zero zarb game</string>
+    <string name="maingrid">Maingrid</string>
+</resources>
