@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/id1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -37,7 +37,7 @@
         app:layout_constraintVertical_bias="0.041" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/id2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -46,13 +46,13 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-        app:layout_constraintVertical_bias="0.016" />
+        app:layout_constraintTop_toBottomOf="@+id/id1"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/id3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -61,9 +61,20 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
-        app:layout_constraintVertical_bias="0.014" />
+        app:layout_constraintTop_toBottomOf="@+id/id2"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:onClick="Certificate"
+        android:text="create certificate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
